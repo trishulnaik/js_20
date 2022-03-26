@@ -7,7 +7,8 @@ async function fetchData(){
   quote = randomPicker(apiData);
   quote_text.textContent = quote.text;
   (quote.author) ? author.textContent = quote.author : author.textContent = 'Unknown';
-  if(quote.author===null) hideELement(wikiBtn);  
+  showHideContainer(quoteContainer,loaderContainer)
+  if(quote.author===null) hideELementNode(wikiBtn);  
 }
 
 //random picker function 
@@ -15,18 +16,24 @@ function randomPicker(dataObj){
   return dataObj[Math.floor(Math.random() * dataObj.length)]
 }
 
-//hide elements
-function hideELement(element){
-  element.className = 'hide-element';
-}
+
 const quote_text = document.querySelector('.quote-text');
 const author = document.querySelector('.author');
 const nextQuoteBtn = document.querySelector('#next-qoute'); 
 const wikiBtn = document.querySelector('#wikipedia-icon');
+const quoteContainer = document.querySelector('.quote-container');
+const loaderContainer = document.querySelector('.loding-container');
 
+showHideContainer(loaderContainer,quoteContainer)
+fetchData();
 
-
-fetchData()
+function showHideContainer(showELement,hideElement){
+  showELement.hidden = false;
+  hideElement.hidden = true;
+}
+function hideELementNode(element){
+  element.hidden = true;
+}
 
 // button click events
 nextQuoteBtn.addEventListener('click',()=>window.location.reload());

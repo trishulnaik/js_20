@@ -11,22 +11,28 @@
 </head>
 
 <body>
-  <div class="quote-container" id="quote-container">
-    <!-- left quote -->
-    <i class="fas fa-quote-left left-quote"></i>
-    <!-- quote which is generated dynamically -->
-    <span class="quote-text"></span>
-    <div class="author-name">
-      - <span class="author"></span>
+  <div class="quote-container-outer" id="quote-container-outer">
+    <div class="quote-container">
+      <!-- left quote -->
+      <i class="fas fa-quote-left left-quote"></i>
+      <!-- quote which is generated dynamically -->
+      <span class="quote-text"></span>
+      <div class="author-name">
+        - <span class="author"></span>
+      </div>
+      <div class="button-container">
+        <!-- wikipedia button  -->
+        <button id="wikipedia-icon" title="author wikipedia">
+          <i class="fa-brands fa-wikipedia-w"></i>
+        </button>
+        <button id="next-qoute" title="Gives next quote">
+          Next Quote
+        </button>
+      </div>
     </div>
-    <div class="button-container">
-      <!-- wikipedia button  -->
-      <button id="wikipedia-icon" title="author wikipedia">
-        <i class="fa-brands fa-wikipedia-w"></i>
-      </button>
-      <button id="next-qoute" title="Gives next quote">
-        Next Quote
-      </button>
+    <div class="loding-container">
+      <h2>Your Motivation is on the way...</h2>
+      <div class="loader"></div>
     </div>
   </div>
   <!-- script -->
