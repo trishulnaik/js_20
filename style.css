@@ -54,7 +54,8 @@ body{
   outline: none;
   box-shadow: 0rem 0.3rem rgba(255,255,255,0.2);
   background-color: rgba(0,0,0,0.5);
-    color: rgba(255,255,255,0.9);
+  color: rgba(255,255,255,0.9);
+  padding: 0.3rem 1.2rem;
 }
 
 .quote-container button:last-child{
