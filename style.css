@@ -24,3 +24,29 @@ h1{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.imagecontainer img{
+  display: block;
+  width: 40%;
+  margin: 20px auto;
+}
+
+.imagecontainer img:hover{
+  transform: scale(105%,105%);
+}
+
+
+/* media queries */
+@media screen and (max-width: 600px) {
+  h1{
+    color: #d9f800;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 6px;
+    margin: 15px;
+  }
+  .imagecontainer img {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+}
+}

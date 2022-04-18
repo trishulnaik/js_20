@@ -6,3 +6,4 @@ Course: https://www.udemy.com/share/103miG3@fIlEkdficu0ebRv6cGEjB2cZREnmlWGTqxoe
 Infinite scroll resources:
 1. Font: https://fonts.google.com/ (choose your favourite)
 2. SVG: https://loading.io/ (for loading effect on the page)
+3. Unsplash doc: https://unsplash.com/documentation (for api)
