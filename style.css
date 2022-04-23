@@ -5,18 +5,31 @@ html{
 }
 
 body{
+  color: red;
   margin: 0;
-  min-height: 100vh; 
+  min-height: 100vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.header{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Tapestry', cursive;
+}
+.button_outer{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(0, 0, 0);
 }
 .button_container{
   padding: 10px;
   border: 2px solid #ff5614;
+  background-color: orange;
   border-radius: 7px;
   box-shadow: inset 0px 20px 10px -19px #ff5614;
+  margin-right: 30px;
 }
 
 button{
