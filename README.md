@@ -4,7 +4,7 @@
 This is the initial template 
 Course: https://www.udemy.com/share/103miG3@fIlEkdficu0ebRv6cGEjB2cZREnmlWGTqxoecG46cD1YtcUxrX9PJBl0FRsHSoAy/
 
-Links to the projects:
-1. Quote Generator: https://quote_generator--papaya-cajeta-c44217.netlify.app/
-2. Infinite Scroll: https://infinte-scroll--papaya-cajeta-c44217.netlify.app/
-3. Picture in Picture: https://pic-in-pic--papaya-cajeta-c44217.netlify.app/
+Picture in Picture resources:
+1. Intro: https://css-tricks.com/an-introduction-to-the-picture-in-picture-web-api/
+2. Font: https://fonts.google.com/ (choose your favourite)
+3. screen capture api: https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API/Using_Screen_Capture
