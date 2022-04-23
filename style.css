@@ -6,13 +6,38 @@ html{
 
 body{
   margin: 0;
-  min-height: 100vh;
-  font-family: 'Tapestry', cursive;
+  min-height: 100vh; 
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(0, 0, 0);
+}
+.button_container{
+  padding: 10px;
+  border: 2px solid #ff5614;
+  border-radius: 7px;
+  box-shadow: inset 0px 20px 10px -19px #ff5614;
 }
 
 button{
-  font-family: inherit;
+  color: #000;
+  font-family: 'Tapestry', cursive;
+  font-size: 25px;
+  padding: 10px;
+  background: linear-gradient(to top, #ff5614, red);
+  box-shadow: inset 0px 20px 10px -19px #ff5614, 0px 10px 5px rgb(252, 238, 84);
+  outline: none;
+  border: 2px solid #ff5614;
+  border-radius: 7px;
+  text-shadow: 0px 2px 5px rgb(225, 213, 0);
+}
+
+button:hover{
+  cursor: pointer;
+  background: linear-gradient(to bottom, #ff5614, red)
+
+}
+button:active{
+  transform: translateY(4px);
+  box-shadow: 0px 5px 2px yellow;
 }
