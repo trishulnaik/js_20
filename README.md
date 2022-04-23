@@ -6,3 +6,4 @@ Course: https://www.udemy.com/share/103miG3@fIlEkdficu0ebRv6cGEjB2cZREnmlWGTqxoe
 
 Links to the projects:
 1. Quote Generator: https://quote_generator--papaya-cajeta-c44217.netlify.app/
+2. Infinite Scroll: https://infinte-scroll--papaya-cajeta-c44217.netlify.app/
